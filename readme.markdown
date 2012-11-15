@@ -24,11 +24,11 @@ Good news, the Red and Green LEDS on the front of the robot can be controlled pr
 	void setGreenLED(int on);
 ```
 
-You can also vary the brightness of these LEDs by using ```cpp analogWrite(RED_LED,value)``` or ```cpp analogWrite(GREEN_LED,value)```. These may be integrated into functions in the future. 
+You can also vary the brightness of these LEDs by using ``` analogWrite(RED_LED,value)``` or ```cpp analogWrite(GREEN_LED,value)```. These may be integrated into functions in the future. 
 
 The bad news? Those annoying blue LEDs that everyone seems to put on electronics? Those are there to stay, I haven't found how to control those yet since I don't think they are tied to a control line. 
 
 
 ### Sensors
 
-Currently the only sensor functioning is the Ambient Light Sensor. You can read the value with ```cpp getAmbientLight() ``` which will give you an int value between 0 and 1024.
+Currently the only sensor functioning is the Ambient Light Sensor. You can read the value with ``` getAmbientLight() ``` which will give you an int value between 0 and 1024.
